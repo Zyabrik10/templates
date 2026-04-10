@@ -1,0 +1,19 @@
+{
+  "name": "templates",
+  "version": "0.1.0",
+  "description": "The repository for different project templates",
+  "main": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zyabrik10/templates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Zyabrik10/templates/issues"
+  },
+  "homepage": "https://github.com/Zyabrik10/templates#readme"
+}

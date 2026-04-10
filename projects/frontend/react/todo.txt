@@ -1,0 +1,6 @@
+1) public/manifest.json
+2) public/index.html
+3) public/favicon.ico
+4) api insertion - done
+5) sign-in, sign-out, and sign-up
+6) Modals

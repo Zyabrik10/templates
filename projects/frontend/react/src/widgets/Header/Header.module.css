@@ -1,0 +1,9 @@
+.header {
+  box-shadow: 0 0 1px var(--color-2);
+  background-color: var(--color-3);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}

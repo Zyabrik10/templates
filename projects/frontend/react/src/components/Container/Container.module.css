@@ -1,0 +1,69 @@
+.container {
+  width: 100%;
+  max-width: 365px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 788px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1460px;
+  }
+}
+
+.section {
+  padding: 40px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 50px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section {
+    padding: 100px 0;
+  }
+}
+
+.section h2 {
+  margin-bottom: 40px;
+}
+
+.section p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.flex {
+  --flex-items: 1;
+  --flex-items-gap: 25px;
+
+  display: flex;
+  gap: var(--flex-items-gap);
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .flex {
+    --flex-items: 3;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .flex {
+    --flex-items: 6;
+  }
+}
+
+.flex > li {
+  flex-basis: calc(
+    (100% - (var(--flex-items) - 1) * var(--flex-items-gap)) / var(--flex-items)
+  );
+}

@@ -1,0 +1,29 @@
+.change-theme-switcher{
+    position: relative;
+    width: 60px;
+    height: 30px;
+    box-shadow: inset 0px 0px 1px 1px var(--color-4);
+    border-radius: 50px;
+
+    cursor: pointer;
+}
+
+.change-theme-ball{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--color-2);
+    transition: background-color 0.3s, left 0.3s ease;
+}
+
+.change-theme-switcher input{
+    display: none;
+}
+
+.change-theme-switcher input:checked + .change-theme-ball{
+    left: 55%;
+}

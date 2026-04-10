@@ -1,0 +1,28 @@
+@import url("./reset-normolize.css");
+@import url("./variables.css");
+
+body{
+  background-color: var(--color-1);
+  color: var(--color-2);
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  line-height: 1.1;
+}
+
+/* For foot to be always at the bottom */
+html, body, #root{
+  height: 100%;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  flex: 1 auto;
+}
+
+footer, header{
+  flex-shrink: 0;
+}
